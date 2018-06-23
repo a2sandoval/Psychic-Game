@@ -44,13 +44,3 @@ document.onkeypress = function(event) {
 
 
 }
-
-var text = "The Psychic Game!";
-
-for(var i in text) { 
-  if(text[i] === " ") {
-    $(".wavetext").append( $("<span>").html("&nbsp;") ); 
-  } else {  
-    $(".wavetext").append( $("<span>").text(text[i]) ); 
-  }
-}
