@@ -1,0 +1,41 @@
+p {
+    background: lightblue;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+}
+
+#wins {
+    border:solid;
+    border-color:black;
+    border-radius: 40px;
+    padding:10px;
+}
+
+#guessesLeft {
+    border:solid;
+    border-color:black;
+    border-radius: 40px;
+    padding:10px;
+}
+
+#guessed {
+    border:solid;
+    border-color:black;
+    border-radius: 40px;
+    padding:10px;
+}
+
+#losses {
+    border:solid;
+    border-color:black;
+    border-radius: 40px;
+    padding:10px;
+}
